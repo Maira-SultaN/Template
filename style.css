@@ -1,0 +1,74 @@
+
+.container-fluid1{
+    padding-top: 80px;
+    padding-left: 100px;
+    background-color: #51536D;
+    color: white;
+}
+
+.container-fluid1 button{
+    background-color: #F8C732;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    border: none;
+  
+}
+.container-fluid2{
+   background-color:  #F9F8FE;
+   padding-top: 100px;
+   padding-bottom: 60px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.container-fluid2 h2{
+    line-height: normal;
+    font-weight: bold;
+}
+.container-fluid2 p{
+    font-size: large;
+    padding-left: 0;
+}
+.years p{
+margin-left: 18%;
+}
+.container-fluid2 h5{
+    font-weight: bold;
+    color: #A6A6A6;;
+}
+.star1{
+    display: inline-flex;
+    column-gap: 80px;
+}
+.years strong{
+    font-size: x-large;
+}
+.years img{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 3px;
+}
+@media only screen and (min-width: 400px),(max-width: 700px)  {
+.container-fluid1 h3, p{
+    text-align: left;
+  padding-right: 80px;
+  padding-left: 30px;
+   padding-bottom: 0;
+}
+.container-fluid1 button{
+   margin-left: 6%;
+ margin-bottom: 25%;
+}
+.container-fluid1 h3{
+    font-size: 40px;
+}
+.img-fluid{
+ padding-right: 100px;
+ padding-bottom: 50px;
+
+}
+}
