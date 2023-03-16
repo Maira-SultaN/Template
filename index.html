@@ -23,7 +23,6 @@
             background-position: center;
             background-repeat: no-repeat;
         }
-
         .outer h4 {
             width: 589px;
             height: 183px;
@@ -41,18 +40,13 @@
         }
 
         .formdiv {
-            padding: 20px;
-            padding-left: 50px;
-            padding-right: 50px;
-            color: rgba(0, 17, 51, 0.6);
+            box-sizing: border-box;
+            height: 508px;
+            width: 480px;
             background: #F8C732;
             border: 1px solid rgba(0, 17, 51, 0.15);
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
             border-radius: 24px;
-            line-height: 20px;
-          position: relative;
-          left: 50px;
-          top: 40px;
         }
 
         label {
@@ -64,16 +58,12 @@
             background: #FFFFFF;
             border: none;
             border-radius: 8px;
-
             height: 40px;
             width: 30%;
             outline: none;
-
         }
 
         form .btn{
-
-
             background: #48A946;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
@@ -83,11 +73,38 @@
             padding-left: 40px;
             padding-right: 40px;
         }
-        .outer1{
+        .input-outer{
             height: 49px;
-            width: 382;
+            width: 382px;
+            border-radius: 8px;
+            box-sizing: border-box;
+            top: calc(50% - 49px/2 - 169.5px);
+            background: #FFFFFF;
+            border: 1px solid #48A946;
+            border-radius: 8px;
+            position: relative;
+            top:30px;
+            left: 40px;
         }
-
+                    .input-outer i{
+                    float: left;
+                    height: 100%;
+                    width: 8%;
+                    border-radius: 0px;
+                    font-size: 20px;
+                    color: #7E8A96;
+                    margin-top: 4%;
+                    margin-left: 2%;
+                    }
+                    .input-outer input{
+                    outline: none;
+                    height: 100%;
+                    width: 90%;
+                    border: none;
+                    border-radius: 8px;
+                    float: left;
+                    background-color: #ffffff;
+                    }
     </style>
 
 </head>
@@ -157,21 +174,24 @@
                             <form>
                                 <div class="mb-3 mt-3">
                                     <label for="email">From</label>
-                                    <div class="outer1">
-                                        <div class="icon">
+                                    <div class="input-outer">
+                                    
                                             <i class="fa-solid fa-magnifying-glass"></i>
-                                        </div>
-                                        <div class="input">
-                                            <input type="email" class="form-control" id="email"
+                                            <input type="email" id="email"
                                             placeholder="Airport, address, station, port" name="email">
-                                        </div>
+                                        
                                     </div>
                                   
                                 </div>
                                 <div class="mb-3">
-                                    <label for="pwd">To</label>
-                                    <input type="password" class="form-control" id="pwd"
-                                        placeholder="Airport, address, station, port" name="pswd">
+                                   
+                                               <div class="input-outer">
+                                    
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                            <input type="email" id="email"
+                                            placeholder="Airport, address, station, port" name="email">
+                                        
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
